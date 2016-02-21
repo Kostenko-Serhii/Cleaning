@@ -1,0 +1,264 @@
+
+@media only screen and (max-width : 1199px) {
+.header-top__text{
+
+			margin-left: 32px; 
+}
+.header-top__text :before{
+	left:-15px;
+}
+.intro-text p br{
+	display: none;
+}	
+.cleaning-description div span{
+	left: -10px;
+}
+.reviews .slide_item  p br{
+display: none;
+}
+
+.news .news__content p br{
+	display: none;
+}
+.news__content>p:nth-of-type(2),
+.news__content>p:nth-of-type(4){
+	margin-top: 20px;
+}
+.main__slider .feedback{
+	display: none;
+}
+/* .main__slider .slide-image  {
+margin-left: 5%;
+
+} */
+.main__slider .container{
+	padding: 0 80px;
+}
+.main__slider  .slide-text{
+	float: left;
+}
+.main__slider  .slide-image{
+	float: right;
+}
+}
+
+@media only screen and (max-width : 991px) {
+.header-top__text{
+	width: 200px;
+	margin-top: 26px;
+}
+.contacts__text>a:before{
+	display: none;
+}
+.header-top__text p:before{
+	top:4%;
+
+}
+.our-services .container>div{
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.our-services__legal-entities{
+	margin-top: 20px;
+flex-basis: 100%;
+}
+.our-services__individuals{
+	margin-right: 0;
+	flex-basis: 100%;
+}
+.content-company__pict{
+	display: none;	
+}
+.content-company__text{
+	margin-left: 0;
+	text-align: center;
+	padding: 0 10px;
+}
+.content-company__text p{
+display: inline;
+font-size: 120%;
+}
+.content-company__text p:nth-of-type(4),
+.content-company__text p:nth-of-type(5),
+.content-company__text p:nth-of-type(6){
+	display: block;
+}
+
+.news .container>div{
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.news .container>div .news__content{
+	flex-basis: 50%;
+}
+.copyright{
+	display: none;
+}
+.footer__menu .menu__social{
+	display: none;
+}
+.footer__menu .menu__list{
+	flex-basis: 100%;
+}
+.main__slider .slide-image img{
+width: 300px;
+height: auto;
+
+}
+.main__slider .slide-image{
+	vertical-align: bottom;
+
+}
+.main__slider  .slide-text p:nth-child(1){
+font-size: 20px;
+font-weight: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+.main__slider  .slide-text p:nth-child(1):after{
+display: none;
+}
+.main__slider .container{
+	padding: 0 50px;
+}
+}
+
+@media only screen and (max-width : 767px) {
+.header-top__text{
+	display: none;
+
+}
+.menu__social{
+	display: none;
+}
+.our-advantages .container>div{
+
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.our-advantages .container>div>div{
+	flex-basis: 50%;
+}
+.our-advantages .container>div>div:first-child{
+	flex-basis: 100%;
+}
+.seasonal-content img{
+	display: none;
+}
+.seasonal-content__text{
+text-align: center;
+
+}
+.seasonal-offer h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#map{
+	display: none;
+}
+footer .container{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+
+}
+footer .contacts{
+	margin-right: 0;
+	position: relative;
+	top:0;
+	left: 0;
+}
+footer .feedback {
+	width: 280px;
+right: 0;
+	position: relative;
+	top:0;
+	margin-top: 20px;
+}
+.footer__menu{
+	display: none;
+}
+.main__slider .container{
+display: none;
+}
+}
+@media only screen and (max-width : 550px) {
+.header-top .contacts{
+	display: none;
+}
+.header-top__logo{
+display: none;
+}
+.menu{
+	margin-top: 0;
+}
+	.menu__list {
+-webkit-flex-direction: column;
+-moz-flex-direction: column;
+-ms-flex-direction: column;
+-o-flex-direction: column;
+flex-direction: column;
+	}
+.menu__list a:before{
+	display: none;
+}
+.cleaning-description{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	padding: 0 10px 20px;
+
+}
+.cleaning-description>div:nth-of-type(2){
+	-ms-align-self: flex-end;
+	align-self: flex-end;
+}
+.our-services__legal-entities .cleaning-description{
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+}
+.our-services__legal-entities .cleaning-description>div:nth-of-type(2){
+	-ms-align-self: flex-start;
+	align-self: flex-start;
+}
+h2{
+	font-size: 26px;
+}
+.news .container>div{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+.news .container>div .news__content{
+	margin-top: 10px;
+}
+
+}
+
+
+
+
+
+
+
